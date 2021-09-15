@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+
+  front:
+    image: eduardolr/ubuntu:20.04-modified-v1.0.1
+    volumes:
+      - ./Front/project:/home
+    working_dir: /home
+    command: bash -c "npm install && npm run build"

@@ -1,0 +1,46 @@
+{
+  "printWidth": 500,
+  "singleQuote": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": true,
+  "bracketSpacing": true,
+  "overrides": [
+    {
+      "files": ["*.component.ts"],
+      "options": {
+        "printWidth": 500,
+        "singleQuote": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "semi": true,
+        "bracketSpacing": true,
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": ["*.component.html"],
+      "options": {
+        "printWidth": 500,
+        "singleQuote": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "semi": true,
+        "bracketSpacing": true,
+        "parser": "html"
+      }
+    },
+    {
+      "files": ["*.component.css"],
+      "options": {
+        "printWidth": 500,
+        "singleQuote": true,
+        "useTabs": false,
+        "tabWidth": 2,
+        "semi": true,
+        "bracketSpacing": true,
+        "parser": "css"
+      }
+    }
+  ]
+}

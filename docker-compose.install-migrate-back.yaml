@@ -1,0 +1,14 @@
+version: '3.1'
+
+services:
+
+  back:
+    image: eduardolr/ubuntu:20.04-modified-v1.0.1
+    working_dir: /home
+    command: bash -c "npm install && npm run typeorm:migrate && npm run typeorm:run && npm run build && node ./dist/main.js"
+    # stdin_open: true 
+    # tty: true        
+    ports:
+      - 5000:5000
+    volumes:
+      - ./Back:/home
