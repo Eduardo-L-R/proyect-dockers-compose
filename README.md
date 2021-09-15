@@ -10,9 +10,9 @@ Para montar proyecto, se deben ejecutar los siguientes comandos en diferentes te
 
 `docker-compose --file ./docker-compose.mont-db.yaml up && docker-compose --file ./docker-compose.mont-db.yaml rm -fsv `
 
-![Screenshot_step1-begin](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_step1-begin.png)
+![Screenshot_step1-begin](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_step1-begin.png)
 
-![Screenshot_step1-end](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_step1-end.png)
+![Screenshot_step1-end](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_step1-end.png)
 
 2. #### instala dependencias, crea estructura base de datos, hace consultas, construye versión distribución del back y ejecuta la versión de distribución del back:
 
@@ -21,9 +21,9 @@ Para montar proyecto, se deben ejecutar los siguientes comandos en diferentes te
 
 `docker-compose --file ./docker-compose.install-migrate-back.yaml up && docker-compose --file ./docker-compose.install-migrate-back.yaml rm -fsv`
 
-![Screenshot_step2-begin](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_step2-begin.png)
+![Screenshot_step2-begin](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_step2-begin.png)
 
-![Screenshot_step2-end](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_step2-end.png)
+![Screenshot_step2-end](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_step2-end.png)
 
 3. #### monta el front version distribución en nginx:
 
@@ -32,9 +32,9 @@ Para montar proyecto, se deben ejecutar los siguientes comandos en diferentes te
 
 `docker-compose --file ./docker-compose.nginx-front.yaml up && docker-compose --file ./docker-compose.nginx-front.yaml rm -fsv `
 
-![Screenshot_step3-begin](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_step3-begin.png)
+![Screenshot_step3-begin](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_step3-begin.png)
 
-![Screenshot_step3-end](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_step3-end.png)
+![Screenshot_step3-end](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_step3-end.png)
 
 
 
@@ -44,9 +44,9 @@ Para montar proyecto, se deben ejecutar los siguientes comandos en diferentes te
 
 `docker-compose --file ./docker-compose.install-built-front.yaml up && docker-compose --file ./docker-compose.install-built-front.yaml rm -fsv `
 
-![Screenshot_begin-optional](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_begin-optional.png)
+![Screenshot_begin-optional](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_begin-optional.png)
 
-![Screenshot_end-optional](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_end-optional.png)
+![Screenshot_end-optional](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_end-optional.png)
 
 
 
@@ -54,6 +54,6 @@ Para finalizar los docker, presione control + c en cada terminal, y espere, cuan
 
 *For stop the dockers, press control + c in every terminal, and wait, when finish all the dockers will have been eliminated.*
 
-![Screenshot_closing-dockers](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_closing-dockers.png)
+![Screenshot_closing-dockers](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_closing-dockers.png)
 
-![Screenshot_dockers-closes](C:\Users\eleiva\Desktop\Proyectos Software\Otros proyectos\Proyect subus\Screenshot_dockers-closes.png)
+![Screenshot_dockers-closes](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_dockers-closes.png)
