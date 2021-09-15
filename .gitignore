@@ -2,7 +2,6 @@
 .vscode/
 Front/project/node_modules/
 Front/project/yarn.lock
-build
 .DS_Store
 *.tgz
 my-app*
