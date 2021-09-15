@@ -57,3 +57,8 @@ Para finalizar los docker, presione control + c en cada terminal, y espere, cuan
 ![Screenshot_closing-dockers](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_closing-dockers.png)
 
 ![Screenshot_dockers-closes](https://github.com/Eduardo-L-R/proyect-dockers-compose/blob/master/Screenshot_dockers-closes.png)
+
+
+Install docker UBUNTU:
+https://docs.docker.com/engine/install/ubuntu/
+https://docs.docker.com/compose/install/
