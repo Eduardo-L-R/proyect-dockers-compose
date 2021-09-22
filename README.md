@@ -62,3 +62,8 @@ Para finalizar los docker, presione control + c en cada terminal, y espere, cuan
 Install docker UBUNTU:
 https://docs.docker.com/engine/install/ubuntu/
 https://docs.docker.com/compose/install/
+
+
+Comment about endpoint:
+Remember change the endpoint to localhost if you test offline.
+![image](https://user-images.githubusercontent.com/60417224/134313127-eb7a5366-7adc-4be8-a3fc-25fd35827473.png)
